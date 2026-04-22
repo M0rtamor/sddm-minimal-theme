@@ -1,5 +1,7 @@
 # Minimal theme for sddm
 
+Simple theme for sddm for a single user.
+
 ## Preview:
 
 ![empty](Preview/empty-preview.png)
@@ -8,5 +10,7 @@
 ## Installation:
 
 Clone the repo and move `minimal/` into `/usr/share/sddm/themes/`, inside `Main.qml` change `userName` to your user name, then add `Current=minimal` to `/etc/sddm.conf` or into `/etc/sddm.conf.d/`.
+
+To change the background, replace `minimal/background.png` with your background.
 
 Install script might follow, maybe not, idk.
