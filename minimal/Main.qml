@@ -6,7 +6,7 @@ Rectangle {
 	height: Screen.height
 
 	//variables
-	property string userName: "marcush"
+	readonly property string userName: config.stringValue("userName")
 	property color textColor: "#ffc6c6c6"
 	property color placeHolderTextColor: "#ff6d6d6d"
 	property color fieldBackgroundColor: "#77000000"
